@@ -10,5 +10,6 @@ int main ()
             else if (i == j+1)
                 std::cout << i << "\n";
         }   
+    std::cin.get();
     return 0;
 }
