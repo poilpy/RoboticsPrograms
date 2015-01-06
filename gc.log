@@ -1,0 +1,26 @@
+Increasing heap size by 262144 after 0 allocated bytes
+Adding block map for size 0
+Initiating full world-stop collection 1 after 0 allocd bytes
+0 bytes in heap blacklisted for interior pointers
+--> Marking for collection 1 after 0 allocd bytes + 0 wasted bytes
+Found new system malloc AllocationBase at 0x2010000
+Collection 0 reclaimed 0 bytes ---> heapsize = 262144 bytes
+World-stopped marking took 47 msecs
+Bytes recovered before sweep - f.l. count = 0
+Immediately reclaimed 0 bytes in heap of size 262144 bytes
+0 (atomic) + 0 (composite) collectable bytes in use
+Finalize + initiate sweep took 0 + 31 msecs
+Complete collection took 94 msecs
+Adding block map for size 6
+Adding block map for size 1
+Adding block map for size 14
+Adding block map for size 2
+Adding block map for size 4
+Adding block map for size 8
+Adding block map for size 12
+Adding block map for size 50
+Adding block map for size 20
+Adding block map for size 16
+Adding block map for size 24
+Adding block map for size 36
+Adding block map for size 60

@@ -1,15 +1,21 @@
 #include <iostream>
+#include <vector>
+#include <fstream>
 
 int main () 
 {
+    std::vector<int> values;
+    std::ofstream textFile("primes.txt");
+
     for (int i=2; i<100; i++) 
         for (int j=2; j<i; j++)
         {
             if (i % j == 0) 
                 break;
             else if (i == j+1)
-                std::cout << i << "\n";
+                values.push_back(i);
         }   
-    std::cin.get();
+    
+    textFile << '\n';
     return 0;
 }
