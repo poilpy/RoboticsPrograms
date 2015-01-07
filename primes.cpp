@@ -12,7 +12,7 @@ int main ()
         {
             if (i % j == 0) 
                 break;
-            else if (i == j+1)
+            else
                 values.push_back(i);
         }   
     
